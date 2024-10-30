@@ -1,0 +1,159 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* === GLobal === */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* tabel */
+/* Mengatur gaya untuk container agar berada di tengah */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+tbody td img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* tombol .btn-tambah */
+.btn-tambah {
+    display: inline-block;
+    padding: 10px 20px;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-tambah:hover {
+    background-color: #0056b3;
+}
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.edit,
+a.hapus {
+    border: 1px solid #007bff;
+}
+
+a.edit:hover {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+
+a.hapus:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+
+/* tambah data */
+.tambah-destinasi {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* width: 20%; */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* edit */
+
+.image-preview__image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
